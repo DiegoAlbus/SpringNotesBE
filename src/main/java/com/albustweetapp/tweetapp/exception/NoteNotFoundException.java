@@ -1,0 +1,7 @@
+package com.albustweetapp.tweetapp.exception;
+
+public class NoteNotFoundException extends RuntimeException {
+    public NoteNotFoundException(String message){
+        super(message);
+    }
+}
